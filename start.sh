@@ -1,9 +1,0 @@
-dev_appserver.py \
-    --host=0.0.0.0 \
-    --enable_host_checking=False \
-    --smtp_host=smtp.qq.com \
-    --smtp_port=587 \
-    --smtp_user=38233951@qq.com \
-    --smtp_password=xxx \
-    --smtp_allow_tls=True \
-    ./app.yaml ./module-worker.yaml
